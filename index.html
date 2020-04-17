@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Dev Luiz Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/" alt="">
+                <button class="nav-toggle" aria-label="toggle navigation">
+                    <span class="hamburger"></span>
+                </button>
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                       <li class="nav__item"><a href="#services" class="nav__link">Serviços</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                       <!-- <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li> -->
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- introduduction-->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Olá, eu sou o  <strong>Luiz Henrique</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Ethical Hacker</p>
+            <img src="img/eu.jpg" alt="foto do luizin feliz" class="intro__img">
+        </section>
+
+        <!--My services-->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">Oque eu faço</h2>
+            <div class="services">
+
+                <div class="service">
+                    <h3>Ethical Hacker</h3>
+                    <p>
+                        Soluções em Análise de vulnerabilidades afim de avaliar a eficiência das soluções de segurança da sua empresa. Como também a realização de testes de invasão, para averiguar se as soluções de segurança da sua instituição realmente são eficazes diante de um ataque real.
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Consultoria</h3>
+                    <p>
+                        A Consultoria em segurança da informação, pode ajudar você e a sua empresa a prever ataques, proteger dados, aplicativos, infraestrutura e parque computacional. Afim de encontrar a melhor solução a ser implementada em cada cenario 
+                    </p>
+                </div>
+
+                <div class="service">
+                    <h3>Treinamentos</h3>
+                    <p>
+                       Treinamentos em segurança cibernética, como também em tecnicas de desenvolvimento seguro de softwares e aplicações web. Os treinamentos tem como objetivo apresentar para o aluno as melhores tecnicas de desenvolvimento de forma pratica e didatica
+                    </p>
+                </div>
+
+            </div>
+          <!--  <a href="#work" class="btn">my work</a> -->
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Quem sou eu ?</h2>
+            <p class="section__subtitle section__subtitle--about">Um apaixonado por pessoas e computação </p>
+             
+            <div class="about-me__body">
+                <p>Mestrando em Ciência da Computação pela Universidade Estadual de Maringá, é especialista em Segurança da informação e Ethical Hacking pela Faculdade Eficaz de Maringá</p>
+                <p>Atualmente atua como professor universitário, tendo experiência com realização de diversos treinamento  na area de desenvolvimento de software.</p>
+                <p>E acima de tudo é apenas um amante da computação, que deseja levar essa arte a todos as pessoas!</p>
+            </div>
+            <img src="img/eu2.jpeg" alt="Luizin olhando para o alem" class="about-me__img">
+        </section>
+
+        <!--SEÇAO MY WORK  PORTFOLIO AQUI -->
+
+        <!-- Footer-->
+        <footer class="footer">
+          <!--  <a href="luhenrique@hotmail.com" class="footer__link">luhenrique@hotmail.com</a> -->
+            <ul class="social-list">
+                <li class="social-list__item"><a class="social-list__link" href="https://www.facebook.com/LuizHenriqueCustodioM">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+            </li>
+        
+                <li class="social-list__item"><a class="social-list__link" href="https://www.instagram.com/luhenrique06/">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        
+                <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/luhenrique">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+            </li>
+        
+                <li class="social-list__item"><a class="social-list__link" href="https://github.com/luhenrique">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
